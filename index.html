@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Focus Companion - An intelligent productivity and focus management tool">
+    <title>AI Focus Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">AI Focus Companion</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#timer">Timer</a></li>
+                    <li><a href="#tasks">Tasks</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Stay Focused, Stay Productive</h2>
+                <p>Harness the power of AI to enhance your focus and manage your time effectively.</p>
+                <a href="#timer" class="btn btn-primary">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🕒 Focus Timer</h3>
+                        <p>Pomodoro-style timer with customizable work and break intervals.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>✔️ Task Management</h3>
+                        <p>Organize and prioritize your daily tasks efficiently.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🤖 AI Assistant</h3>
+                        <p>Get intelligent suggestions to improve your productivity.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📈 Progress Tracking</h3>
+                        <p>Monitor your focus patterns and productivity trends over time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timer Section -->
+        <section id="timer" class="timer">
+            <div class="container">
+                <h2>Focus Timer</h2>
+                <div class="timer-display">
+                    <div id="time-display" class="time-display">25:00</div>
+                    <div class="timer-controls">
+                        <button id="start-btn" class="btn btn-primary">Start</button>
+                        <button id="pause-btn" class="btn btn-secondary">Pause</button>
+                        <button id="reset-btn" class="btn btn-secondary">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tasks Section -->
+        <section id="tasks" class="tasks">
+            <div class="container">
+                <h2>Task List</h2>
+                <div class="task-input">
+                    <input type="text" id="task-input" placeholder="Add a new task...">
+                    <button id="add-task-btn" class="btn btn-primary">Add Task</button>
+                </div>
+                <ul id="task-list" class="task-list">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Focus Companion. Open source project.</p>
+            <p>
+                <a href="https://github.com/Mansisingh-b/ai-focus-companion" target="_blank">GitHub Repository</a> |
+                <a href="https://ai-focus-companion-zzvi.bolt.host" target="_blank">Live Demo</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
